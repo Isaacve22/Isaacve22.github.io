@@ -21,7 +21,7 @@ h1 {
     margin-bottom: 20px;
   background-color: #FF2D3B; /* Color de fondo del rectángulo */
    padding: 10px 20px;
-  border-radius: 10px;
+  border-radius: 11px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para el rectángulo */
   }
 

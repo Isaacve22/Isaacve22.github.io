@@ -1,5 +1,5 @@
 // Fecha de finalización de la cuenta regresiva
-const endDate = new Date('2022-09-07T00:00:00').getTime();
+const endDate = new Date('2023-09-07T19:00:00').getTime();
 
 function updateCountdown() {
   const now = new Date().getTime();

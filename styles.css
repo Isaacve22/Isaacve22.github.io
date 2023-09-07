@@ -74,7 +74,7 @@ h1 {
     }
   
     .time {
-      font-size: 30px; /* Reducimos el tamaño de los elementos de tiempo */
+      font-size: 15px; /* Reducimos el tamaño de los elementos de tiempo */
     }
   
     .aftercountdown {

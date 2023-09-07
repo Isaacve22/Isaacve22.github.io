@@ -1,0 +1,93 @@
+body {
+    background-color: #FFE05B;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+
+
+  .container {
+    text-align: center;
+
+}
+
+h1 {
+    color: #ffff;
+    display: inline-block; /* Hacer que el fondo se ajuste al tamaño del texto */
+    font-size: 60px;
+    margin-bottom: 20px;
+  background-color: #FF2D3B; /* Color de fondo del rectángulo */
+   padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para el rectángulo */
+  }
+
+ #countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 30px ;
+  
+}
+
+.time {
+    margin: 0 10px; /* Espacio entre los elementos de tiempo */
+    font-size: 40px;
+
+}
+
+.aftercountdown {
+    display: none; /* Ocultar elementos inicialmente */
+    text-align: center;
+    justify-content: center;
+    width: 800px;
+    padding: 30px;
+}
+
+.aftercountdown p{
+    text-align: justify;
+}
+
+#video-container{
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+.photos img{
+    margin-top: 20px;
+    width: 200px;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #FF2D3B;
+}
+
+/* Estilos específicos para pantallas más pequeñas, como teléfonos */
+
+@media (max-width: 768px) {
+    h1 {
+      font-size: 40px; /* Reducimos el tamaño del título */
+    }
+  
+    .time {
+      font-size: 30px; /* Reducimos el tamaño de los elementos de tiempo */
+    }
+  
+    .aftercountdown {
+      width: 90%; /* Reducimos el ancho del contenido después del contador */
+      padding: 20px;
+    }
+
+    #video-container {
+        max-width: 100%; /* Cambiamos el ancho máximo para que se ajuste al ancho de la pantalla */
+        padding: 10px; /* Ajusta el espacio alrededor del video */
+      }
+  
+    .photos img {
+      width: 100%; /* Hacemos que las imágenes ocupen todo el ancho disponible */
+    }
+  }
